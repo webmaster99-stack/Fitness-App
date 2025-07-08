@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c836bf-693d-4048-a794-75398d81bf63" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+    <list default="true" id="32c836bf-693d-4048-a794-75398d81bf63" name="Changes" comment="Configured the database session and added the required models">
+      <change afterPath="$PROJECT_DIR$/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,8 @@
       <workItem from="1751896805697" duration="508000" />
       <workItem from="1751897433839" duration="262000" />
       <workItem from="1751897753324" duration="2173000" />
-      <workItem from="1751952143425" duration="2051000" />
+      <workItem from="1751952143425" duration="4367000" />
+      <workItem from="1751965313837" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -79,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751898023176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configured the database session and added the required models">
+      <option name="closed" value="true" />
+      <created>1751959049289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751959049289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Configured the database session and added the required models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configured the database session and added the required models" />
   </component>
 </project>
