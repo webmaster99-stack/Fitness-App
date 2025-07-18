@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c836bf-693d-4048-a794-75398d81bf63" name="Changes" comment="Added users service">
-      <change afterPath="$PROJECT_DIR$/logs/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/service.py" afterDir="false" />
+    <list default="true" id="32c836bf-693d-4048-a794-75398d81bf63" name="Changes" comment="Added logs service and registered some of the routers in api.py and main.py">
+      <change afterPath="$PROJECT_DIR$/calculator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.74" />
-        <option value="bundled-python-sdk-657d8234b839-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -73,7 +73,11 @@
       <workItem from="1751965313837" duration="3509000" />
       <workItem from="1751976658915" duration="5890000" />
       <workItem from="1752039785883" duration="4279000" />
-      <workItem from="1752051074223" duration="3022000" />
+      <workItem from="1752051074223" duration="3160000" />
+      <workItem from="1752057900892" duration="666000" />
+      <workItem from="1752139462935" duration="5326000" />
+      <workItem from="1752149659052" duration="63000" />
+      <workItem from="1752839643785" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -107,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751988832414</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added logs service and registered some of the routers in api.py and main.py">
+      <option name="closed" value="true" />
+      <created>1752054274837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752054274837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +130,7 @@
     <MESSAGE value="Configured the database session and added the required models" />
     <MESSAGE value="Added authentication service" />
     <MESSAGE value="Added users service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added users service" />
+    <MESSAGE value="Added logs service and registered some of the routers in api.py and main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logs service and registered some of the routers in api.py and main.py" />
   </component>
 </project>
