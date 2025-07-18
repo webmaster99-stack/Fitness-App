@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c836bf-693d-4048-a794-75398d81bf63" name="Changes" comment="Added logs service and registered some of the routers in api.py and main.py">
-      <change afterPath="$PROJECT_DIR$/calculator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/service.py" afterDir="false" />
+    <list default="true" id="32c836bf-693d-4048-a794-75398d81bf63" name="Changes" comment="Added calculator service and registered the router in api.py">
+      <change afterPath="$PROJECT_DIR$/fitness_adivisor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitness_adivisor/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitness_adivisor/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitness_adivisor/service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,8 @@
       <workItem from="1752057900892" duration="666000" />
       <workItem from="1752139462935" duration="5326000" />
       <workItem from="1752149659052" duration="63000" />
-      <workItem from="1752839643785" duration="612000" />
+      <workItem from="1752839643785" duration="2809000" />
+      <workItem from="1752852080795" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -119,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752054274837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added calculator service and registered the router in api.py">
+      <option name="closed" value="true" />
+      <created>1752840497617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752840497617</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +140,7 @@
     <MESSAGE value="Added authentication service" />
     <MESSAGE value="Added users service" />
     <MESSAGE value="Added logs service and registered some of the routers in api.py and main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logs service and registered some of the routers in api.py and main.py" />
+    <MESSAGE value="Added calculator service and registered the router in api.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added calculator service and registered the router in api.py" />
   </component>
 </project>
