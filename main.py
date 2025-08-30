@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, status
 from api import register_routes
 from database.core import Base, engine
 from contextlib import asynccontextmanager
@@ -19,3 +19,17 @@ app = FastAPI(
 
 
 register_routes(app)
+
+
+@app.get("/", status_code=status.HTTP_200_OK)
+def welcome():
+    return {
+        "message": "Welcome to the Calorie Tracker API",
+        "docs": "/docs",
+        "redoc": "/redoc"
+    }
+
+
+@app.get("/health", status_code=status.HTTP_200_OK)
+def health_check():
+    return {"status": "healthy"}
