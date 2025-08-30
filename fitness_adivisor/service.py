@@ -4,15 +4,15 @@ from .models import FitnessProfile, FitnessReportResult
 fitness_agent = Agent(
     model="gpt-4o",
     deps_type=FitnessProfile,
-    result_type=FitnessReportResult,
-    result_retries=3,
+    output_type=FitnessReportResult,
+    output_retries=3,
     system_prompt="Create personalized FitnessReportResult based on user's information provided."
     "for motivational quotes call the get_motivation tool and pick the single best one from the list you receive."
 )
 
 motivational_agent = Agent(
     model="gpt-4o",
-    result_type=list[str],
+    output_type=list[str],
     system_prompt="Give motivational quotes based on the user's fitness goals and current status.",
 )
 
